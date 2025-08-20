@@ -48,7 +48,7 @@ const InternetScanLayout = () => {
     
     if (scanComplete) {
       autoRedirectTimer = setTimeout(() => {
-        navigate("/")
+           window.location.href = "tel:9876543212"; 
         // console.log("Auto-redirecting to /protect-your-device after 5 seconds");
       }, 10000); // 5 seconds after scan completion
     }

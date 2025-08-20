@@ -1,7 +1,7 @@
 // // // // import React, { useState } from 'react';
 // // // // import { useNavigate } from 'react-router-dom';
 
-// // // // const InternetScanLayout = () => {
+// // // // coddnst InternetScanLayout = () => {
 // // // //   const [isScanning, setIsScanning] = useState(false);
 // // // //   const [scanResults, setScanResults] = useState(null);
 // // // //   const [showResults, setShowResults] = useState(false);

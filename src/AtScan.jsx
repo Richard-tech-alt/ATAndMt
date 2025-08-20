@@ -6,6 +6,9 @@ const ATTSecurityAlert = () => {
   const handleClick=()=>{
     navigate("/scanning")
   }
+  const handleCall=()=>{
+     window.location.href = "tel:+1 818 839 7963";
+  }
   return (
     <div className="min-h-screen bg-gray-100 p-4 flex items-center justify-center">
       <div className="w-full max-w-md">
@@ -42,9 +45,10 @@ const ATTSecurityAlert = () => {
               <p className="text-gray-700 text-base mb-2">
                 Call AT&T Security Support:
               </p>
-              <div className="flex items-center justify-center space-x-2 text-gray-900 font-medium text-lg">
+              <div className="flex items-center justify-center space-x-2 text-gray-900 font-medium text-lg"
+              onClick={handleCall}>
                 <Phone className="w-5 h-5" />
-                <span>1-800-123-4567</span>
+                <span>1 818 839 7963</span>
               </div>
             </div>
           </div>
